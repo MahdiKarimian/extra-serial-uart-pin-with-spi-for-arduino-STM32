@@ -2,7 +2,8 @@ I implemented this design with nuclue stm32F746ZG
 
 For Test this design connect
 
-PB5(SPI1_MOSI) -->> RX 
+PB5(SPI1_MOSI) -->> RX of usb_serial
+
 board(GND) ---->> usb_serial_GND pin
 
 
