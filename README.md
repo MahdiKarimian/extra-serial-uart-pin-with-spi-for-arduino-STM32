@@ -1,5 +1,9 @@
 # Extra Serial port for a microcontroller using SPI
 
+Design implemented for STM32 go to [stm32_SerialTxOverSPI folder](stm32_SerialTxOverSPI/README.md) 
+
+Design implemented for Arduino design is [SerialTxOverSPI.ino](SerialTxOverSPI.ino) 
+
 In this project, you can use one of the SPI ports in any board as a UART transmitter port.
 This project can be implemented on any microcontroller and processor.
 
@@ -34,7 +38,7 @@ SPI byte 2 =>
 
 | b7 1  1  1  1  1  1   1| ( the '1' is act as stop bit)
 
-## Test
+## Test Arduino
 
 
 
